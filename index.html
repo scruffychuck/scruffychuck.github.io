@@ -1,61 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>scruffychuck</title>
-    <style>
-        body {
-            background-color: #add8e6;
-            color: #000000;
-            font-family: sans-serif;
-            margin: 1in;
-        }
-
-        @media (max-width: 600px) {
-            body {
-                margin: 0.5in;
-            }
-        }
-
-        header {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            background-color: #333;
-            color: #fff;
-            padding: 0.5em;
-        }
-
-        header a {
-            color: #fff;
-            text-decoration: none;
-        }
-
-        /* Twitter logo */
-        .twitter-logo {
-            background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Twitter_bird_logo_2012.svg/1200px-Twitter_bird_logo_2012.svg.png");
-            background-size: cover;
-            display: inline-block;
-            width: 1.5em;
-            height: 1.5em;
-        }
-
-        /* LinkedIn logo */
-        .linkedin-logo {
-            background-image: url("https://www.linkedin.com/brand-guidelines/downloads/linkedin-icon-black.svg");
-            background-size: cover;
-            display: inline-block;
-            width: 1.5em;
-            height: 1.5em;
-        }
-    </style>
+	<title>My Website</title>
+	<style>
+		body {
+			background-color: #3d5a80;
+			color: #333;
+			font-family: 'Asap Condensed', sans-serif;
+			margin: 1.5in;
+		}
+		header {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background-color: #eee;
+		}
+		img {
+			height: 25px;
+			vertical-align: middle;
+		}
+		@media screen and (max-width: 600px) {
+			body {
+				margin: 0;
+			}
+			header {
+				position: relative;
+			}
+		}
+	</style>
 </head>
 <body>
-    <header>
-        <h1>scruffychuck</h1>
-    </header>
-    <p>
-        Follow me on <a href="https://twitter.com/scruffychuck"><span class="twitter-logo"></span></a> and <a href="https://linkedin.com/scruffychuck"><span class="linkedin-logo"></span></a>.
-    </p>
+	<header>
+		<a href="https://www.linkedin.com"><img src="linkedin-logo.png" alt="LinkedIn"></a>
+		<a href="https://www.twitter.com"><img src="twitter-logo.png" alt="Twitter"></a>
+		<a href="https://www.github.com"><img src="github-logo.png" alt="GitHub"></a>
+		<a href="https://www.mirror.xyz"><img src="mirror-logo.png" alt="Mirror.xyz"></a>
+		<a href="https://www.medium.com"><img src="medium-logo.png" alt="Medium"></a>
+	</header>
 </body>
 </html>
